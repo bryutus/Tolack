@@ -2,8 +2,8 @@
 
 import json
 import os
-from botocore.vendored import requests
-from botocore.vendored.requests.auth import HTTPBasicAuth
+import requests
+from requests.auth import HTTPBasicAuth
 
 SLACK_CHANNEL = os.environ['slackChannel']
 SLACK_WEBHOOK_URL = os.environ['slackWebhookUrl']
